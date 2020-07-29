@@ -1,0 +1,31 @@
+﻿<Window
+    x:Class="Telerik.RadTileList.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+    Title="MainWindow"
+    Width="525"
+    Height="350">
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="TileLabelStyle" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontFamily" Value="Segoe UI" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="Foreground" Value="White" />
+                <Setter Property="VerticalAlignment" Value="Bottom" />
+            </Style>
+        </Grid.Resources>
+        <telerik:RadTileList x:Name="TileList1">
+            <telerik:Tile Background="BlueViolet">
+                <TextBlock Style="{StaticResource TileLabelStyle}" Text="Photo" />
+            </telerik:Tile>
+            <telerik:Tile Background="Purple">
+                <TextBlock Style="{StaticResource TileLabelStyle}" Text="Maps" />
+            </telerik:Tile>
+            <telerik:Tile Background="Green">
+                <TextBlock Style="{StaticResource TileLabelStyle}" Text="Mail" />
+            </telerik:Tile>
+        </telerik:RadTileList>
+    </Grid>
+</Window>

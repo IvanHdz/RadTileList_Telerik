@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.RadTileList", "Telerik.RadTileList\Telerik.RadTileList.csproj", "{DF89C279-75B1-4637-B1B1-2EBF8F51BB47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF89C279-75B1-4637-B1B1-2EBF8F51BB47}.Debug|x86.ActiveCfg = Debug|x86
+		{DF89C279-75B1-4637-B1B1-2EBF8F51BB47}.Debug|x86.Build.0 = Debug|x86
+		{DF89C279-75B1-4637-B1B1-2EBF8F51BB47}.Release|x86.ActiveCfg = Release|x86
+		{DF89C279-75B1-4637-B1B1-2EBF8F51BB47}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {830E36E7-0401-4B11-B258-1DBC3B64C96F}
+	EndGlobalSection
+EndGlobal
